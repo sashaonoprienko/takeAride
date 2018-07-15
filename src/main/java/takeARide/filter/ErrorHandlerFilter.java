@@ -81,7 +81,7 @@ public class ErrorHandlerFilter extends AbstractFilter {
 					throw new AccessDeniedException(msg);
 				}
 				case 404: {
-					throw new ResourceNotFoundException(msg);
+					
 				}
 				case 400: {
 					throw new ValidationException(msg);
