@@ -1,0 +1,11 @@
+application.production=true
+
+db.driver=org.postgresql.Driver
+db.url=jdbc:postgresql://localhost/ishop?useUnicode=true&amp;characterEncoding=utf8
+db.username=postgres
+db.password=password
+db.pool.initSize=3
+db.pool.maxSize=5
+social.facebook.idClient=208942166567508
+social.facebook.secret=78bd77481f6b335abe519451bc16d91b
+app.host=http://localhost:8080

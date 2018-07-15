@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <delete dir="E:\JAVA EE\TakeARide/src/main/webapp/WEB-INF/lib"/>
+  <copy todir="E:\JAVA EE\TakeARide/src/main/webapp/WEB-INF/lib">
+    <fileset dir="E:\JAVA EE\TakeARide/target/TakeARide/WEB-INF/lib"/>
+  </copy>
+</target>
+</project>
