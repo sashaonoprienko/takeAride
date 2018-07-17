@@ -7,7 +7,7 @@
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                   <h4 class="modal-title">Ordering</h4>
-                  <h5 class="modal-title" style="color:#FF0000">To make final order,please go to myOrders</h4>
+                  <h5 class="modal-title" style="color:#FF0000">To make final order,please go to myOrders</h5>
                 </div>
                 <div class="modal-body row">
                   <div class="col-xs-12 col-sm-6">
@@ -23,10 +23,7 @@
                     </div>
                     <div class="list-group">
                       <span class="list-group-item"> <small>Price:</small> <span class="price">0</span></span> 
-                      <span class="list-group-item"> <small>Number of Days:</small> <input type="number" class="count" value="1" min="1" max="10"></span>
-                      <span class="list-group-item"> <small>Your full name:</small><input type="text" class="passName" size="30"> </span>
-                      <span class="list-group-item"> <small>Passport Series:</small><input type="text" class="passport" size="28"> </span>
-                        <span class="list-group-item"><small>I Need A driver</small> <input id="needDriver" type="radio"></span>
+                      <span class="list-group-item"> <small>Number</small> <input type="number" class="count" value="1" min="1" max="10"></span>
                       <span class="list-group-item"> <small>Cost:</small> <span class="cost">0</span></span>
                     </div>
                   </div>
